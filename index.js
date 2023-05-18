@@ -32,12 +32,17 @@ async function run() {
 
         const toysCollection=client.db('masterToy').collection('toys');
 
+    app.get('/allToy',async(req,res)=>{
+        const result=await toysCollection.find().toArray();
+        res.send(result)
+    })
+
 
     app.post('/addToy',async(req,res)=>{
         const toyData=req.body;
         const result=await toysCollection.insertOne(toyData);
         res.send(result)
-    })
+    });
 
 
 
