@@ -4,6 +4,9 @@ const port=process.env.PORT||5000;
 require('dotenv').config()
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const app=express();
+const categoryOne=require('./cetagoryOne.json')
+const categoryTwo=require('./cetagoryTwo.json')
+const categoryThree=require('./categoryThree.json')
 
 // Middleware:
 
@@ -102,6 +105,18 @@ run().catch(console.dir);
 app.get('/',(req,res)=>{
     res.send('Cars Toys is running')
 });
+
+
+app.get('/categoryOne',(req,res)=>{
+  res.send(categoryOne)
+})
+app.get('/categoryTwo',(req,res)=>{
+  res.send(categoryTwo)
+})
+app.get('/categoryThree',(req,res)=>{
+  res.send(categoryThree)
+})
+
 app.listen(port,()=>{
     console.log(`Cars toys is running on port:${port}`)
 })

@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "picture":"https://img.freepik.com/free-photo/vintage-miniature-car-fake-landscape_155003-1097.jpg?w=740&t=st=1684506733~exp=1684507333~hmac=ab6ae01d07715b98deeeba243faf0255962401cb727252a7221a102f782fc0c2",
+        "name":"Sports Car",
+        "rating":"4.5",
+        "price":"20.99"
+    },
+    {
+        "id":2,
+        "picture":"https://img.freepik.com/premium-photo/self-driving-tour-concept-car-model-destination_1205-2701.jpg?w=740",
+        "name":"Sports Car",
+        "rating":"4.5",
+        "price":"19.99"
+    }
+]

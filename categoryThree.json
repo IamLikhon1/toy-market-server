@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "picture":"https://img.freepik.com/premium-photo/colorful-little-mini-blue-plastic-police-defender-truck-car-toy-isolated-white-background-mockup-with-copy-space-toys-childrenfor-boys-kids-development-playing-childhood-fun_280499-1575.jpg?w=740",
+        "name":"police Car",
+        "rating":"3.2",
+        "price":"7.99"
+    },
+    {
+        "id":2,
+        "picture":"https://img.freepik.com/premium-vector/cute-police-car-with-outline-siren-service-vehicle-chasing-criminal-vector-illustration_456865-1776.jpg?w=740",
+        "name":"Police Car",
+        "rating":"3",
+        "price":"4.99"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "picture":"https://img.freepik.com/premium-photo/dump-track-toy-loaded-with-blocks_470606-615.jpg?w=740",
+        "name":"Truck",
+        "rating":"4",
+        "price":"15.99"
+    },
+    {
+        "id":2,
+        "picture":"https://img.freepik.com/premium-photo/large-plastic-toy-truck-isolated-white-background_168508-1408.jpg?w=740",
+        "name":"Truck",
+        "rating":"3.5",
+        "price":"9.99"
+    }
+]
